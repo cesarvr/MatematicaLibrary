@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B58A333618B135D500E1BDC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58A333518B135D500E1BDC9 /* main.cpp */; };
 		B58A333818B135D500E1BDC9 /* MatProyecto.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B58A333718B135D500E1BDC9 /* MatProyecto.1 */; };
+		B58A334018B135EB00E1BDC9 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58A333E18B135EB00E1BDC9 /* Vector3.cpp */; };
+		B58A334418B13FDC00E1BDC9 /* Matriz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58A334218B13FDC00E1BDC9 /* Matriz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,11 @@
 		B58A333218B135D500E1BDC9 /* MatProyecto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatProyecto; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A333518B135D500E1BDC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B58A333718B135D500E1BDC9 /* MatProyecto.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MatProyecto.1; sourceTree = "<group>"; };
+		B58A333E18B135EB00E1BDC9 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3.cpp; sourceTree = "<group>"; };
+		B58A333F18B135EB00E1BDC9 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		B58A334118B136A400E1BDC9 /* Precision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Precision.h; sourceTree = "<group>"; };
+		B58A334218B13FDC00E1BDC9 /* Matriz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matriz.cpp; sourceTree = "<group>"; };
+		B58A334318B13FDC00E1BDC9 /* Matriz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matriz.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,11 @@
 			children = (
 				B58A333518B135D500E1BDC9 /* main.cpp */,
 				B58A333718B135D500E1BDC9 /* MatProyecto.1 */,
+				B58A333E18B135EB00E1BDC9 /* Vector3.cpp */,
+				B58A333F18B135EB00E1BDC9 /* Vector3.h */,
+				B58A334118B136A400E1BDC9 /* Precision.h */,
+				B58A334218B13FDC00E1BDC9 /* Matriz.cpp */,
+				B58A334318B13FDC00E1BDC9 /* Matriz.h */,
 			);
 			path = MatProyecto;
 			sourceTree = "<group>";
@@ -117,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58A334018B135EB00E1BDC9 /* Vector3.cpp in Sources */,
+				B58A334418B13FDC00E1BDC9 /* Matriz.cpp in Sources */,
 				B58A333618B135D500E1BDC9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
